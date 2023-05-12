@@ -1,0 +1,49 @@
+@import "./../../../sass/index.scss";
+
+.auth_login-container {
+  background-color: $colorgrayDark;
+  border-radius: 40px;
+  border: 0.3px solid $colorgrayLight;
+  color: $colorWhite;
+  box-shadow: 2px 2px 2px 2px $colorBlack;
+
+  h1 {
+    font-size: 40px;
+    color: $colorWhite;
+  }
+
+  label {
+    color: $colorWhite;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input {
+    background-color: $colorBlack;
+    color: $colorgrayLight;
+  }
+
+  input::placeholder {
+    color: $colorgrayLight;
+  }
+
+  button {
+    width: 200px;
+    background-color: $colorRedLight;
+    padding: 10px;
+    color: $colorWhite;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: $colorRedDark;
+  }
+
+  span {
+    cursor: pointer;
+    color: $colorWhite;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

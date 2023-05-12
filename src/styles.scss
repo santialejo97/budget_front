@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import "sass/index.scss";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  background-color: $colorBlack !important;
+  color: $colorgrayLight !important;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 100 !important;
+  background-image: url("./assets/img/logoBudget.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400 !important;
+}
